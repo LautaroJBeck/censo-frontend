@@ -1,0 +1,28 @@
+.edit_input-title{
+    font-weight: bold;
+}
+.edit_input{
+    margin:5px;
+    outline:none;
+    width:75%;
+    padding:5px;
+}
+.edit_lista{
+    width:50%;
+    padding:5px;
+    margin:5px;
+    outline:none;
+}
+.boton-enviar-editado{
+    margin-top:20px;
+    height:30px;
+    width:200px;
+    align-self: center;
+    outline: none;
+    border: none;
+    background-color: #DD2B1C;
+    border-radius: 10px;
+    font-size: 20px;
+    color:#fff;
+    cursor:pointer;
+}

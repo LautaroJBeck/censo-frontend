@@ -1,0 +1,63 @@
+.header-login{
+    width:100%;
+    height: 80px;
+    display:flex;
+    justify-content: center;
+}
+.header-login nav{
+    width:90%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-login nav .button-header-login{
+    width:200px;
+    height:50px;
+    background-color: #1D48A2;
+    color:#ffffff;
+    border:none;
+    font-family: "Roboto",sans-serif;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header-login nav h4{
+    font-size: 36px;
+}
+.header-login nav h4 i{
+    color:#DD2B1C;
+    margin:1rem;
+}
+.header-login nav h4 span{
+    font-weight: normal;
+}
+@media only screen and (max-width: 832px) {
+    .span-rol{
+        display:none;
+    }
+}
+@media only screen and (max-width:600px){
+
+    .header-login nav .header-h4{
+        font-size: 28px;
+    }
+    .header-login .nav-login{
+        width: 95%;
+    }
+    .header-login .nav-login .header-h4 i{
+        color:#DD2B1C;
+        margin:.25rem;
+    }
+    .header-login nav .button-header-login{
+        width:150px;
+    }
+}
+@media only screen and (max-width:450px){
+    .header-login nav .header-h4{
+        font-size: 22px;
+    }
+    .header-login nav .button-header-login{
+        width:125px;
+        font-size: 16px;
+    }
+}

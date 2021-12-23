@@ -1,0 +1,14 @@
+footer{
+    margin-top: 2rem;
+    height:5rem;
+    background-color: #1D48A2;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    font-family: "Roboto",sans-serif;
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;
+}
